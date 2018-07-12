@@ -1,5 +1,5 @@
 body{
-    background-color: aquamarine;
+    background-color: white;
 }
 .menu{
     position: fixed;
@@ -15,7 +15,7 @@ li a{
     font-size: 24;
 }
 li a:visited{
-    color: black;
+    color: rgba(6, 160, 114);
 }
 li a:hover{
     color: rgba(6, 160, 114, 0.6);
@@ -37,12 +37,11 @@ li a:hover{
 #Olle{
     border: 5px rgba(6, 160, 114, 0.6) dotted;
 }
-div .gallery{
+/*div .gallery{
     display: block;
     margin: 20px;
-    
     width: 180px;
-}
+}*/
 div.gallery:hover {
     background-color: rgba(6, 160, 114, 0.6);
     border-radius: 10px;
